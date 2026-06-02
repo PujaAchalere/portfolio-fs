@@ -48,6 +48,13 @@ import freelanceVideo4 from "../../assets/images/works/videos/Jungle Vilas Reel.
 import freelanceVideo5 from "../../assets/images/works/videos/Jungle Vilas.mp4";
 import freelanceVideo6 from "../../assets/images/works/videos/kota reel.mp4";
 import freelanceVideo7 from "../../assets/images/works/videos/Ladies Night.mp4";
+import rpmArabianNight from "../../assets/images/works/videos/RPM Arabian Night.mp4";
+import samudraVideo from "../../assets/images/works/videos/Samudra.mp4";
+import saturdayNight from "../../assets/images/works/videos/Saturday Night.mp4";
+import snapInsta1 from "../../assets/images/works/videos/Video 5.mp4";
+import snapInsta2 from "../../assets/images/works/videos/Video 4.mp4";
+import snapInsta3 from "../../assets/images/works/videos/Video 3.mp4";
+import sundayMadness from "../../assets/images/works/videos/Sunday Madness.mp4";
 
 const TABS = [
   "All",
@@ -56,46 +63,48 @@ const TABS = [
   "Design",
   "Video",
   "Freelancing",
+  // "Rega",
+  // "Jungle Vilas"
 ];
 
 const WORKS = [
   {
     id: 1,
-    title: "Lab Test Awareness Campaign",
+    title: "Child Health First",
     cat: "Social Media",
     image: img1,
   },
 
   {
     id: 2,
-    title: "Healthcare Awareness Creatives",
+    title: "Expert Skin Care",
     cat: "Healthcare",
     image: img2,
   },
   {
     id: 26,
-    title: "Dark Spots Removal Awareness Campaign",
+    title: "Glow with Confidence",
     cat: "Healthcare",
     image: img3,
   },
 
   {
     id: 3,
-    title: "Medical Reel Editing",
+    title: "Expert Skin Advice",
     cat: "Healthcare",
     video: video2,
   },
 
   {
     id: 4,
-    title: "Brain Tumour Treatment Promotion",
+    title: "Brain Tumors: Expert Guidance",
     cat: "Healthcare",
     image: img5,
   },
 
   {
     id: 5,
-    title: "Children Sleep Awareness Campaign",
+    title: "Healthy Sleep, Healthy Growth",
     cat: "Healthcare",
     image: img4,
   },
@@ -127,49 +136,49 @@ const WORKS = [
 
   {
     id: 9,
-    title: "Farm Stay Thumbnail",
+    title: "A Stay to Remember",
     cat: "Freelancing",
     image: img8,
   },
 
   {
     id: 10,
-    title: "Goa Reel Thumbnail",
+    title: "Stay. Relax. Repeat.",
     cat: "Social Media",
     image: img9,
   },
 
   {
     id: 11,
-    title: "Jungle Thumbnail",
+    title: "Jungle Safari",
     cat: "Social Media",
     image: img10,
   },
 
   {
     id: 12,
-    title: "Jungle Vilas Reel Thumbnail",
+    title: "Wildlife Safari Experience",
     cat: "Freelancing",
     image: img11,
   },
 
   {
     id: 13,
-    title: "Jungle Vilas Thumbnail",
+    title: "Daily Dose of Humor",
     cat: "Freelancing",
     image: img12,
   },
 
   {
     id: 14,
-    title: "Kota Reel Thumbnail",
+    title: "Stay in Paradise",
     cat: "Freelancing",
     image: img13,
   },
 
   {
     id: 15,
-    title: "Ladies Night Thumbnail",
+    title: "The Menu Made Me Do It",
     cat: "Freelancing",
     image: img14,
   },
@@ -180,72 +189,120 @@ const WORKS = [
 
   {
     id: 16,
-    title: "Farm Stay Video",
+    title: "Farm Stay Overview",
     cat: "Freelancing",
     video: freelanceVideo1,
   },
 
   {
     id: 17,
-    title: "Goa Reel Video",
+    title: "Goa Awaits",
     cat: "Video",
     video: freelanceVideo2,
   },
 
   {
     id: 18,
-    title: "Jungle Video",
+    title: "Life at Jungle Vilas",
     cat: "Freelancing",
     video: freelanceVideo3,
   },
 
   {
     id: 19,
-    title: "Jungle Vilas Reel Video",
+    title: "Into the Wild: Jungle Vilas",
     cat: "Video",
     video: freelanceVideo4,
   },
 
   {
     id: 20,
-    title: "Jungle Vilas Video",
+    title: "Moments at Jungle Vilas",
     cat: "Freelancing",
     video: freelanceVideo5,
   },
 
   {
     id: 21,
-    title: "Kota Reel Video",
+    title: "A Table Full of Love",
     cat: "Video",
     video: freelanceVideo6,
   },
 
   {
     id: 22,
-    title: "Ladies Night Video",
-    cat: "Freelancing",
+    title: "Ladies Night",
+    cat: "Video",
     video: freelanceVideo7,
   },
   {
     id: 23,
-    title: "PRL 9",
+    title: "PRL Machines",
     cat: "Social Media",
     image: prl9,
   },
 
   {
     id: 24,
-    title: "PRL 2",
+    title: "PRL Machines",
     cat: "Social Media",
     image: prl2,
   },
 
   {
     id: 25,
-    title: "PRL 5",
+    title: "PRL Machines",
     cat: "Social Media",
     image: prl5,
   },
+  {
+  id: 27,
+  title: "RPM Arabian Night",
+  cat: "Video",
+  video: rpmArabianNight,
+},
+
+{
+  id: 28,
+  title: "Samudra",
+  cat: "Freelancing",
+  video: samudraVideo,
+},
+
+{
+  id: 29,
+  title: "Saturday Night",
+  cat: "Video",
+  video: saturdayNight,
+},
+
+{
+  id: 30,
+  title: "Ladakh Rides",
+  cat: "Video",
+  video: snapInsta1,
+},
+
+{
+  id: 31,
+  title: "Techno Night",
+  cat: "Video",
+  video: snapInsta2,
+},
+
+{
+  id: 32,
+  title: "Sexy Saturday",
+  cat: "Video",
+  video: snapInsta3,
+},
+
+{
+  id: 33,
+  title: "Sunday Madness",
+  cat: "Video",
+  video: sundayMadness,
+}
 ];
 
 export const Work = () => {
