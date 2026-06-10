@@ -3,7 +3,7 @@ import { Reveal } from "../Reveal";
 import { Phone, Mail, MessageCircle, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 
-const WA = "https://wa.me/918307399295";
+const WA = "https://wa.me/918630424991";
 
 const CARDS = [
   { icon: Phone, label: "Call Direct", value: "+91 8630424991", href: "tel:+918630424991" },
