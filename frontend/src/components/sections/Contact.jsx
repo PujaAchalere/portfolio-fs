@@ -6,8 +6,8 @@ import { toast } from "sonner";
 const WA = "https://wa.me/918307399295";
 
 const CARDS = [
-  { icon: Phone, label: "Call Direct", value: "+91 8307399295", href: "tel:+918307399295" },
-  { icon: Mail, label: "Email Me", value: "fs561788@gmail.com", href: "mailto:fs561788@gmail.com" },
+  { icon: Phone, label: "Call Direct", value: "+91 8630424991", href: "tel:+918630424991" },
+  { icon: Mail, label: "Email Me", value: "faisal.media28@gmail.com", href: "mailto:faisal.media28@gmail.com" },
   { icon: MessageCircle, label: "WhatsApp", value: "Chat Instantly", href: `${WA}?text=Hi%20Faisal%21` },
   { icon: MapPin, label: "Location", value: "Muradnagar, Ghaziabad · IN", href: null },
 ];
