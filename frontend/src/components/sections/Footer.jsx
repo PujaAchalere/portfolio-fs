@@ -34,6 +34,7 @@ export const Footer = () => {
           </a>
           <a
             data-testid="footer-email"
+            // mailto link with pre-filled subject and body
             href="mailto:faisal.media28@gmail.com"
             aria-label="Email"
             className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/70 hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
@@ -45,3 +46,4 @@ export const Footer = () => {
     </footer>
   );
 };
+
