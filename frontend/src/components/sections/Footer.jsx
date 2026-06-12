@@ -1,6 +1,6 @@
 import { Mail, MessageCircle } from "lucide-react";
 
-const WA = "https://wa.me/918307399295";
+const WA = "https://wa.me/918630424991";
 
 export const Footer = () => {
   return (
@@ -15,6 +15,7 @@ export const Footer = () => {
             FAISAL MEDIA
           </span>
         </div>
+      
 
         <div className="font-dm text-white/45 text-xs text-center">
           © 2026 Faisal · FAISAL MEDIA · Muradnagar, Ghaziabad
@@ -33,7 +34,7 @@ export const Footer = () => {
           </a>
           <a
             data-testid="footer-email"
-            href="mailto:fs561788@gmail.com"
+            href="mailto:faisal.media28@gmail.com"
             aria-label="Email"
             className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/70 hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
           >
